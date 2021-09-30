@@ -1,0 +1,68 @@
+body{
+    background-color: #c1bdba;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    background-color: #24333C;
+    width: 50vw;
+    height:50vh;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.contenedorForm{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: 24323D;
+    
+}
+.bottonesForm{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: 24323D;
+}
+.SignUpButton{
+    background-color: #1ab188;
+    color:#7af4d2;
+}
+.logInButton{
+    background-color: #435259;
+    color:#808f94;
+}
+.form-titule{
+    text-align:center;
+    color:white;
+    font-weight:thin;
+    margin:0 0 40px;
+  }
+  .seccion {
+      content: "";
+      display: table;
+      clear: both;
+      
+    }
+    .email{
+        display:block;
+        width:100%
+    }
+    .pasword{
+        display:block;
+        width:100%  
+    }
+    .buttonStarted{
+        display: flex;
+       flex-direction: row;
+        margin: 10px;
+        background-color: 24323D;
+        background-color: #1ab188;
+        display:block;
+        width:100%
+    }
